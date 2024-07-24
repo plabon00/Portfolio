@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plabon Sarkar - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5f9aaae740.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./PLABAN ..svg" alt="Image">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-ellipsis-vertical" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>B.Tech CSE-AI Student</p>
+                <h1>Hi, I'm <span>Plaban</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!------------About Section start-------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Devpic.png" alt="Devpic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtittle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, minus velit soluta neque delectus
+                        hic nisi corrupti, non accusantium molestias rem ab ut tempora! Illum odit ipsum reprehenderit
+                        consectetur, ad perferendis hic magni asperiores ratione minus ea amet molestiae vitae
+                        voluptatum porro eius, non aliquid? Distinctio doloremque facere doloribus, odit temporibus
+                        maxime ratione molestias at ipsum, quae, qui culpa est.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C++</span><br>Problem solving using Data Structure & Alogorithm</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Big Projects</span><br>More then 5 Big Projects</li>
+                            <li><span>Small Projects</span><br>More then 10 Small Projects</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Completed 10th at Bethuahari J.C.M High School</li>
+                            <li><span>2022</span><br>Completed 12th at Bethuahari J.C.M High School</li>
+                            <li><span>2022</span><br>Enrolled for B.Tech CSE-AI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------About Section End-------------->
+
+    <!------------Services-------------->
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="subtittle">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti omnis minima ea illo quo
+                        officiis a illum corporis veniam quod!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti omnis minima ea illo quo
+                        officiis a illum corporis veniam quod!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti omnis minima ea illo quo
+                        officiis a illum corporis veniam quod!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!------------Portfolio-------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtittle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="./images/calculator.png">
+                    <div class="layer">
+                        <h3>calculator App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tenetur suscipit unde impedit!
+                            Eaque, dolorem.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/shopping.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tenetur suscipit unde impedit!
+                            Eaque, dolorem.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Music.jpg">
+                    <div class="layer">
+                        <h3>Music Player</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tenetur suscipit unde impedit!
+                            Eaque, dolorem.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!------------Contact-------------->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sarkarplabon576@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile"></i>+91 8600000049</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/BATTLEKING08"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/plabon_srkr/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/plaban-srkr001"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/PlabanSarkar576?mx=2"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><span>Copyright ©Plaban. Made with_<i class="fa-solid fa-heart"></i>_by Plaban Sarkar</span></p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyagmj1dCbi7XWoPQKrDSay0elyRTmT5K9lrAYDa04BSKiJ0zxghz0Ay8sZHpgn2yRD8A/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Massage Sent Sucessfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+</body>
+
+</html>
